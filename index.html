@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>Portfólio</title>
+  <link rel="icon" href="gamepad.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="https://media.licdn.com/dms/image/C4E03AQGxSOCga0sx6Q/profile-displayphoto-shrink_800_800/0/1635452825535?e=1683763200&v=beta&t=up3fdx9uCXj1GhBHp_TE6EmIen1oSw2v5fP6gE-1wUk"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">Danilo Rodrigues</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> Sobre </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Portfólio </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact"> Contato </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">Sobre</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Portfólio</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Olá 👋</span>
+          <span class="heading-primary__main">
+            Eu sou Danilo! Software Developer em busca de construir um mundo mais rápido e interativo através da tecnologia!
+          </span>
+        </h1>
+        <button class="btn btn-theme home-hero__btn-theme"><a href="./index.html#projects">Portfólio</a></button>
+        <button class="btn btn-inv home-hero__btn-theme"><a href="./index.html#contact">Contato</a></button>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Sobre 🎮</span>
+        <span class="heading-secondary__main">
+            Aqui você pode descobrir um pouquinho mais sobre mim; desde informações sobre o que eu faço até habilidades em programação.
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              Minha História
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                Sempre fui apaixonado por tecnologia, mas minha primeira graduação foi na Psicologia. Psicólogo formado que hoje está realizando os sonhos de infância na área da programação! 
+              </span>
+              <span>
+                Hoje trabalho como desenvolvedor RPA, tendo foco em automação C# e Python. Utilizo de ferramentas como UiPath e Ranorex no dia a dia.
+              </span>
+              <span>
+                GRANDE paixão por programação, então no meu tempo livre estudo mais sobre esse mundo e sobre como posso aplicar novos conhecimentos ao meu dia a dia! Desenvolvendo aplicações e projetos web no tempo livre pra atingir vôos mais altos!
+              </span>
+            </p>
+            <button class="btn btn-theme about__btn-theme"><a href="./index.html#projects">Portfólio</a></button>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              Minhas Habilidades
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">html</li>
+              <li class="about__skill">css</li>
+              <li class="about__skill">javascript</li>
+              <li class="about__skill">react</li>
+              <li class="about__skill">.net</li>
+              <li class="about__skill">git</li>
+              <li class="about__skill">C#</li>
+              <li class="about__skill">Python</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-html5-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-javascript-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-react-original"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-dot-net-plain"></i>
+      </li>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-git-plain"></i>
+      </li>
+
+      <li class="skills-showcase__list-item">
+        <i class="devicon-csharp-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-python-plain"></i>
+      </li>
+    </ul>
+  </section>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Portfólio 🛠️</span>
+        <span class="heading-secondary__main">
+          Aqui você pode ver alguns projetos que desenvolvi como desafio pessoal e portifólio profissional, desde projetos mais simples até alguns de maior utilidade ao dia a dia!
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./WebPortifolio.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Portfólio web
+              </h3>
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Este é um projeto de WebSite simples, onde há uma breve descrição das minhas habilidades e de minha tragetória. O projeto foi feito em HTML, CSS e Javascript.
+                </span>
+               
+                <span>
+                  O Link para o projeto completo esta abaixo!
+                </span>
+              </p>
+              <button class="btn btn-inv projects__btn-inv"><a href="https://github.com/ikrypty/WebF-lio.git">Código Aqui</a></button>
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./Forca.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Jogo da Forca
+              </h3>
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Jogo da forca simples, desenvolvido em Python. Nesse projeto, integrei uma biblioteca de palavras para garantir uma maior amplitude de possibilidades e um maior grau de dificuldade no jogo. O usuário tem 6 tentativas e o jogo mostra as palavras acertadas, erradas e, em caso de derrota, qual era a palavra correta.
+                </span>
+                <span>
+                    O Link para o projeto completo esta abaixo!
+                </span>
+              </p>
+              <button class="btn btn-inv projects__btn-inv"><a href="https://github.com/ikrypty/Jogo-da-Forca">Código Aqui</a></button>
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 2 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./GerenciadorFinanceiro.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Sistema Gerenciador de Finanças em C#
+              </h3>
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Sistema de controle de gastos desenvolvido em C#. Uma grande alegria concluir esse projeto, pois foi o primeiro no qual vi uma empregabilidade para o dia a dia (inclusive, eu uso e me ajuda muito! hahaha). Nesse projeto, o usuário irá informar o mês em questão e o saldo recebido para aquele mês, informar os gastos um por um e o valor de cada gasto, até informar que não há mais gastos e, por fim, será retornado um resumo das despesas com o saldo restante ou valor que irá faltar. Todos esses dados são exportados para um arquivo .xlsx.
+                </span>
+                <span>
+                    O Link para o projeto completo esta abaixo!
+                </span>
+              </p>
+              <button class="btn btn-inv projects__btn-inv"><a href="https://github.com/ikrypty/Sistema-Gerenciador-de-Gastos-C-">Código Aqui</a></button>
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./GerenciadorFinanceiroPy.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Sistema Gerenciador de Finanças em Python
+              </h3>
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  O mesmo projeto mostrado anteriormente, porém desenvolvido em Python. Como C# e Python são linguagens que genuinamente gosto, fiz questão de me esforçar em criar o mesmo sistema em ambas as linguagens.
+                </span>
+                <span>
+                    O Link para o projeto completo esta abaixo!
+                </span>
+              </p>
+              <button class="btn btn-inv projects__btn-inv"><a href="https://github.com/ikrypty/Sistema-Gerenciador-de-Gastos">Código Aqui</a></button>
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 4 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contato 📞</span>
+        <span class="heading-secondary__main">
+          Sinta-se livre para entrar em contato pelo formulário ou por alguma de minhas redes!
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="contact__form-cont">
+          <form class="contact__form">
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Nome</label>
+              <input placeholder="Digite seu Nome" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Email</label>
+              <input placeholder="Digite seu e-mail" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Mensagem</label>
+              <textarea placeholder="Digite sua mensagem" name="message" id="" cols="30" rows="10"
+                class="contact__form-field-input"></textarea>
+            </div>
+            <button type="submit" class="contact__form-submit">Enviar</button>
+          </form>
+          <div class="contact__form-visual"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">Sobre</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Portfólio</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contato</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a href="https://github.com/ikrypty" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-twitter-50.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/danilo-rodrigues-a26482a7/" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-pinterest-64.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          © Copyright
+          <script>document.write(new Date().getFullYear())</script>. Feito por
+          <a href="https://www.linkedin.com/in/danilo-rodrigues-a26482a7/">Danilo Rodrigues</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
